@@ -11,35 +11,33 @@
 </head>
 
 <body>
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <!-- navbar-expand-md  --  Va hacer que no se muestre la lista de elementos si esta en =>med -->
+            <a href="#" class="navbar-brand">logoSitio</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#miMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="miMenu">
 
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
-        <!-- navbar-expand-md  --  Va hacer que no se muestre la lista de elementos si esta en =>med -->
-        <a href="#" class="navbar-brand">LogoSitio</a>
-        <button class="navbar-toggler" 
-        data-toggle="callapse" 
-        data-target="miMenu"> <span class="navbar-toggler-icon"> </span>
-        </button>
+                <ul class="navbar-nav ml-auto">
+                    <!-- ml-auto mover a la derecha,   mx-auto mover al centro -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
 
-        <div class="collapse navbar-collapse" id="miMenu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Servicios</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-            <ul class="navbar-nav ml-auto" >
-                <!-- ml-auto mover a la derecha,   mx-auto mover al centro -->
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Inicio</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Servicios</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contacto</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
